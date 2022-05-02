@@ -19,15 +19,15 @@ class Stack {
   }
 
   push(element) {
-    this.stack.unshift(element);
+    this.stack.push(element);
   }
 
   pop() {
-    this.stack.shift();
+    this.stack.pop();
   }
 
   peek() {
-    return this.stack[0];
+    return this.stack.length[this.stack.length - 1];
   }
 }
 
